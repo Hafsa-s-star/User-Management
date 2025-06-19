@@ -1,9 +1,10 @@
-* {
-    background-color: hsl(250, 10%, 85%);
+ body {
+   background:linear-gradient(to right, #a1ffce, #faffd1) ;  
+
 }
 
 h1 {
-    color: darkslateblue;
+    color: #D36C6C;
     font-weight: bolder;
     font-size: 38px;
     text-align: center;
@@ -11,8 +12,12 @@ h1 {
 
 table {
     border-collapse: collapse;
-    border-color: black;
+    border-collapse: collapse;
+    border-color: #008080;
     border: 2px solid;
+    text-align: center;
+    padding: 20px;
+    width: 1000px;
 }
 
 td  {
@@ -20,11 +25,75 @@ td  {
     font-weight: 400;
     font-style: normal;
     padding: 10px;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
 }
 
 th {
     font-family: "Sofia Sans", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 400;
+    font-weight: bolder;
     font-style: normal;
+    border-right: 1px solid black;
+    padding: 10px;
+    border-bottom: 1px solid black;
+    color: #00675b;
+}
+
+.e  {
+    background-color: teal !important;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 60px;
+    text-align: center;
+}
+
+button.e:hover {
+    background-color: rgb(31, 85, 85) !important;
+    transform: scale(1.2);
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+button {
+    background-color: #3f8645;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 60px;
+    text-align: center;
+}
+button:not(.e):hover {
+    background-color: #2e6b34;
+    transform: scale(1.2) ;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+th:hover {
+    transform: scale(1.5) !important;
+     transition: all 0.3s ease;
+    cursor: pointer;
+    background-color: darkolivegreen;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+td:hover {
+    transform: scale(1.5) !important;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    background-color:darkolivegreen;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
